@@ -1,6 +1,6 @@
 # Introduction to Synergetics
 
-Master’s course — draft edition, 1 October 2026.
+Master’s course — draft edition, 26 October 2026.
 
 The course is being developed and edited topic by topic. English is the primary
 edition; Ukrainian lecture notebooks are maintained alongside it. This snapshot
@@ -12,6 +12,8 @@ preserves the current instructor-edited notebooks and their saved outputs.
 |---|---|---|---|
 | English | [Contents](syn_py/syn_toc.ipynb) | [Open contents](https://colab.research.google.com/github/kulinskij-tech/Synergetics/blob/main/syn_py/syn_toc.ipynb) | [PDF](Syn_syllabus/syn_syllabus_en.pdf) |
 | Українська | [Зміст](syn_py_ua/syn_ua_toc.ipynb) | [Відкрити зміст](https://colab.research.google.com/github/kulinskij-tech/Synergetics/blob/main/syn_py_ua/syn_ua_toc.ipynb) | [PDF](Syn_syllabus/syn_syllabus_ua.pdf) |
+
+Start with Module 00, then the H-theorem prerequisite: [English](syn_py/syn_00a_boltzmann_h_theorem.ipynb) / [Українська](syn_py_ua/syn_ua_00a_boltzmann_h_theorem.ipynb), then Module 01. Instructor additions in UA are preserved and their material is carried into EN during bilingual review.
 
 The prerequisite notebook develops Boltzmann’s H-theorem, microscopic phase
 density, the BBGKY hierarchy, correlations, the collision integral, and continuum

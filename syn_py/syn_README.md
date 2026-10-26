@@ -1,6 +1,6 @@
 # Introduction to Synergetics notebooks
 
-_English graduate course draft — 12 notebooks, designed for a 14-week semester._
+_English graduate course draft — 13 content notebooks plus the TOC, designed for a 14-week semester._
 
 The parallel Ukrainian edition starts at [`../syn_py_ua/syn_ua_toc.ipynb`](../syn_py_ua/syn_ua_toc.ipynb); its syllabus is [`../Syn_syllabus/syn_syllabus_ua.pdf`](../Syn_syllabus/syn_syllabus_ua.pdf).
 
@@ -33,6 +33,8 @@ flowchart LR
     class capstone finish
 ```
 
+Read Module 00, then the Boltzmann/H-theorem prerequisite (00a), and then Module 01. Both language editions include the same topics and numerical models. Instructor edits in the UA masters are preserved and their additional teaching material is carried into EN.
+
 ## 🚀 Quick start
 
 Use a Python environment with NumPy, SciPy, Matplotlib, and JupyterLab.
@@ -53,6 +55,7 @@ The modules use a just-in-time prerequisite design. Short cells tagged `prerequi
 | Notebook | Central question | Main computation |
 | --- | --- | --- |
 | `syn_00_course_map.ipynb` | How did the problem of order in open systems become Haken's program? | Schrödinger–Turing–Haken history, Eon's embodied-fly case, and control/order/state-variable classification |
+| `syn_00a_boltzmann_h_theorem.ipynb` | How do collisions produce irreversible relaxation without forbidding open-system order? | H-theorem, Maxwellian, continuum balances, discrete collision channel and BGK illustrations |
 | `syn_01_foundations.ipynb` | How did Haken's laser theory motivate synergetics? | Laser threshold, coherence, and Maxwell–Bloch reduction |
 | `syn_02_stability_bifurcations.ipynb` | How does instability create a self-selected rhythm? | Bifurcations, Van der Pol limit cycles, relaxation oscillations, and energy balance |
 | `syn_03_order_parameters_slaving.ipynb` | Why can a few slow variables describe many fast ones? | Fast–slow reduction and error scaling |
@@ -75,4 +78,6 @@ The student-facing bibliography uses English editions: Haken's *Synergetics*, Mi
 
 ---
 
-_Last updated: 2026-09-14 · English draft for review_
+_Last updated: 2026-10-26 · English draft for review_
+
+The historical introduction and H-theorem/continuum questions also retain the author's Ukrainian teaching additions. Eon source ledger: `../sources/research_eon_systems_intro.md`.
